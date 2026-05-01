@@ -91,32 +91,6 @@ npm run dev
 
 ---
 
-## 🌐 Push to GitHub
-
-```bash
-git init
-git add .
-git commit -m "feat: Your Future in 2035 — AI prediction weboreel"
-git branch -M main
-git remote add origin https://github.com/JIIT-Himanshi/your-future-2035.git
-git push -u origin main
-```
-
----
-
-## ⚡ Vercel Deployment Settings
-
-| Setting | Value |
-|---|---|
-| **Framework Preset** | `Vite` |
-| **Root Directory** | `./` (default) |
-| **Build Command** | `npm run build` |
-| **Output Directory** | `dist` |
-| **Install Command** | `npm install` |
-
-> This is a React + Vite project so Vercel needs the build step unlike the plain HTML projects!
-
----
 
 ## 🎮 How to Experience
 
