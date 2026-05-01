@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;800&family=Space+Grotesk:wght@400;500;700&family=JetBrains+Mono:wght@400;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply m-0 bg-[#03020b] font-body text-slate-100 antialiased;
+    background-image:
+      radial-gradient(circle at 15% 20%, rgba(61, 121, 255, 0.2), transparent 35%),
+      radial-gradient(circle at 80% 0%, rgba(255, 74, 203, 0.15), transparent 35%),
+      radial-gradient(circle at 85% 75%, rgba(153, 78, 255, 0.18), transparent 35%);
+  }
+
+  * {
+    @apply border-slate-300/20;
+  }
+
+  ::selection {
+    background-color: rgba(98, 78, 255, 0.45);
+    color: #fff;
+  }
+}
+
+@layer components {
+  .glass-panel {
+    @apply rounded-2xl border border-white/15 bg-white/5 backdrop-blur-xl;
+  }
+
+  .neon-title {
+    font-family: 'Orbitron', sans-serif;
+    letter-spacing: 0.02em;
+    text-shadow:
+      0 0 12px rgba(69, 231, 255, 0.42),
+      0 0 34px rgba(143, 76, 255, 0.35);
+  }
+
+  .interactive-btn {
+    @apply rounded-full border border-cyan-300/40 bg-gradient-to-r from-cyan-400/25 via-violet-400/25 to-fuchsia-400/25 px-6 py-3 font-semibold text-white transition-all duration-300;
+    box-shadow: 0 0 0 rgba(100, 255, 235, 0);
+  }
+
+  .interactive-btn:hover {
+    @apply -translate-y-1 border-cyan-200/70;
+    box-shadow: 0 0 24px rgba(96, 190, 255, 0.42);
+  }
+
+  .grid-halo {
+    background-image:
+      linear-gradient(rgba(115, 102, 255, 0.16) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(115, 102, 255, 0.16) 1px, transparent 1px);
+    background-size: 48px 48px;
+    mask-image: radial-gradient(circle at center, rgba(0, 0, 0, 1), transparent 75%);
+    animation: pulse-grid 7s ease-in-out infinite;
+  }
+
+  .aurora {
+    filter: blur(46px);
+    animation: float-aurora 9s ease-in-out infinite alternate;
+  }
+}
+
+@keyframes float-aurora {
+  0% {
+    transform: translate3d(-2%, -3%, 0) scale(1);
+  }
+  100% {
+    transform: translate3d(2%, 3%, 0) scale(1.12);
+  }
+}
+
+@keyframes pulse-grid {
+  0%,
+  100% {
+    opacity: 0.16;
+  }
+  50% {
+    opacity: 0.32;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
