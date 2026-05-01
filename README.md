@@ -2,7 +2,7 @@
 
 > A cinematic, scroll-driven AI-powered future prediction experience built for VishwaNova National Level Weboreel AI Hackathon 2026.
 
-[![Live Demo](https://img.shields.io/badge/Live-Demo-cyan?style=for-the-badge)](https://your-future-2035.vercel.app)
+[![Live Demo](https://img.shields.io/badge/Live-Demo-cyan?style=for-the-badge)](https://your-future-2035.vercel.app/)
 [![GitHub](https://img.shields.io/badge/GitHub-Repo-black?style=for-the-badge)](https://github.com/JIIT-Himanshi/your-future-2035)
 [![Hackathon](https://img.shields.io/badge/VishwaNova-Hackathon-red?style=for-the-badge)](https://unstop.com/hackathons/national-level-weboreel-ai-hackathon-mit-world-peace-university-pune-maharashtra-1665476)
 
