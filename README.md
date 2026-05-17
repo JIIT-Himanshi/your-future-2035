@@ -1,4 +1,4 @@
-# 🚀 Your Future in 2035 — AI Prediction Weboreel
+# Your Future in 2035 — AI Prediction Weboreel
 
 > A cinematic, scroll-driven AI-powered future prediction experience built for VishwaNova National Level Weboreel AI Hackathon 2026.
 
@@ -8,7 +8,7 @@
 
 ---
 
-## 🔗 Live Link
+##  Live Link
 
 👉 https://your-future-2035.vercel.app
 
@@ -24,16 +24,16 @@
 
 ## ✨ Features
 
-- 🧠 AI prediction engine — generates personalized future profile from name + career input
-- 📜 6 scroll-driven story phases — Hero → Input → Processing → Result → Visualization → Final
-- 🎬 GSAP + ScrollTrigger animations — smooth cinematic reveals on every section
-- 🌌 Cinematic video backgrounds — space and futuristic city visuals
-- 🎵 Ambient space audio with Sound On/Off toggle
-- ⚡ Real-time animated progress bar during AI analysis (3.8s GSAP tween)
-- 🃏 Animated result cards — Future Job, City, Salary, Lifestyle
-- 🌐 Floating neon chips showing smart career orbit and destination city
-- ✨ Glassmorphism UI with neon cyan/violet/fuchsia palette
-- 📱 Fully responsive for desktop and mobile
+- AI prediction engine — generates personalized future profile from name + career input
+- 6 scroll-driven story phases — Hero → Input → Processing → Result → Visualization → Final
+- GSAP + ScrollTrigger animations — smooth cinematic reveals on every section
+- Cinematic video backgrounds — space and futuristic city visuals
+- Ambient space audio with Sound On/Off toggle
+- Real-time animated progress bar during AI analysis (3.8s GSAP tween)
+- Animated result cards — Future Job, City, Salary, Lifestyle
+- Floating neon chips showing smart career orbit and destination city
+- Glassmorphism UI with neon cyan/violet/fuchsia palette
+- Fully responsive for desktop and mobile
 
 ---
 
