@@ -63,7 +63,7 @@ your-future-2035/
 
 ---
 
-## 🚀 Tech Stack
+##  Tech Stack
 
 - React 18 + Vite
 - GSAP 3 + ScrollTrigger
