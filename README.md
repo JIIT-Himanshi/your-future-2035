@@ -1,4 +1,4 @@
-# Your Future in 2035 — AI Prediction Weboreel
+#  Your Future in 2035 — AI Prediction Weboreel
 
 > A cinematic, scroll-driven AI-powered future prediction experience built for VishwaNova National Level Weboreel AI Hackathon 2026.
 
@@ -10,11 +10,11 @@
 
 ##  Live Link
 
-👉 https://your-future-2035.vercel.app
+ https://your-future-2035.vercel.app
 
 ---
 
-## 🎬 About This Weboreel
+##  About This Weboreel
 
 **Your Future in 2035** is an immersive AI-powered web experience where users enter their name and career interest, and the system generates a personalized cinematic prediction of their life in 2035 — complete with future job, city, salary, and lifestyle description. It unfolds across 6 scroll-driven phases with ambient space audio, neon visuals, and GSAP animations.
 
@@ -22,7 +22,7 @@
 
 ---
 
-## ✨ Features
+##  Features
 
 - AI prediction engine — generates personalized future profile from name + career input
 - 6 scroll-driven story phases — Hero → Input → Processing → Result → Visualization → Final
@@ -37,7 +37,7 @@
 
 ---
 
-## 🗂️ Folder Structure
+##  Folder Structure
 
 ```
 your-future-2035/
@@ -73,7 +73,7 @@ your-future-2035/
 
 ---
 
-## 🛠️ Run Locally
+##  Run Locally
 
 ```bash
 # 1. Clone the repo
@@ -92,7 +92,7 @@ npm run dev
 ---
 
 
-## 🎮 How to Experience
+##  How to Experience
 
 1. Open the site and watch the cinematic hero section
 2. Click **Start Prediction**
@@ -104,7 +104,7 @@ npm run dev
 
 ---
 
-## 🏆 Hackathon
+##  Hackathon
 
 VishwaNova — National Level Weboreel AI Hackathon 2026
 MIT World Peace University, Pune
@@ -112,7 +112,7 @@ Submitted by: Himanshi (JIIT-Himanshi)
 
 ---
 
-## 📜 License
+##  License
 
 MIT — Free to use and remix.
 
