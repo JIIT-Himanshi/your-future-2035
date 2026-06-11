@@ -118,4 +118,4 @@ MIT — Free to use and remix.
 
 ---
 
-*The future is not fixed. It is built. *
+*The future is not fixed. It is built.*
